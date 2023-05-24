@@ -148,10 +148,10 @@ body {
   font-family: Akira;
   border-radius: 20px;
   margin: 20px;
-  background: linear-gradient(120deg, rgb(1, 204, 45), rgb(20, 197, 220), rgb(255, 0, 0));
+  background: linear-gradient(120deg, rgb(1, 204, 45), rgb(20, 197, 220), rgb(255, 0, 0), rgb(109, 4, 196));
   background-size: 200% 100%;
   background-position: 100% 0;
-  transition: background-position .1s;
+  transition: background-position .30s;
 }
 
 .home a:hover {
@@ -161,7 +161,7 @@ body {
    background-position: 0 0;
  }
 
- span3 { /* Changes the word Bread in the black heading to blue */
+ span3 { /* Changes the Bread description in the black heading to blue */
   color: #ffffff;
   font-size: small;
  }
