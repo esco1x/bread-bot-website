@@ -78,6 +78,7 @@ body {
  footer a {
   color: #00ccff;
   font-weight: bolder;
+  text-decoration: none;
  }
 
  .headingblack { /* This changes the heading text in the index.htm to black */
@@ -121,4 +122,46 @@ body {
  .aboutheading a:hover {
   background-color:#00ccff;
    color: white;
+ }
+
+ .home {
+  font-family: Akira;
+  text-align: center;
+  color: #28b3fe;
+  padding: 20px;
+  margin: 40px;
+  background-color: #1b1b1b;
+  border-radius: 30px;
+  width: 25%;
+  display: inline-block;
+  font-weight: bold;
+ }
+
+ .home a { /* Changes the social links in the about page */
+  float: none;
+  color: #ffffff;
+  background-color: #1b1b1b;
+  text-align: center;
+  padding: 10px 36px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Akira;
+  border-radius: 20px;
+  margin: 20px;
+  background: linear-gradient(120deg, rgb(1, 204, 45), rgb(20, 197, 220), rgb(255, 0, 0));
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position .1s;
+}
+
+.home a:hover {
+  background-color:#00ccff;
+   color: rgb(0, 0, 0);
+   transition: 1000ms;
+   background-position: 0 0;
+ }
+
+ span3 { /* Changes the word Bread in the black heading to blue */
+  color: #ffffff;
+  font-size: small;
  }
